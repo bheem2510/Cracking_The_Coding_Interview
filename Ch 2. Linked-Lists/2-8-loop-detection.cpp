@@ -6,7 +6,7 @@
  *  I remove the loop. So that we can test our solution. Read comment at line 25.
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 struct Node {
   int data;
