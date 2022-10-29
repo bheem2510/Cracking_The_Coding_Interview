@@ -19,7 +19,7 @@
  * Finally, we will solve the follow up.
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 struct Node {
   int data;
