@@ -14,7 +14,7 @@
  *  and smaller values at head.
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 #include <random>
 
 struct Node {
