@@ -19,7 +19,7 @@
  *  	 we have reached length-k node from start, which is kth node from last.
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 struct Node {
   int data;
