@@ -1,9 +1,8 @@
-#include<string>
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
-bool isOneAway(string s1, string s2){
+bool isOneAway(string s1, string s2)
+{
 	string a,b;
 	a = s1.length() >= s2.length() ? s1 : s2;
 	b = s1.length() < s2.length() ? s1 : s2;
@@ -14,7 +13,8 @@ bool isOneAway(string s1, string s2){
 		return false;
 	
 	bool flag = false;
-	for(int i=0,j=0;i<len1 && j<len2;){
+	for(int i=0,j=0;i<len1 && j<len2;)
+	{
 		if(a[i]!=b[j]){
 			if(flag)
 				return false;
@@ -46,16 +46,20 @@ int main(void){
 	int spac = num*2+1;
 
 	spac -= 4;
-	for(int i=0; i<=num-1; i++){
-		for(int j=0; j<=i; j++){
+	for(int i=0; i<=num-1; i++)
+	{
+		for(int j=0; j<=i; j++)
+		{
 			cout<<" ";
 		}
 		cout<<"*";
-		for(int k=1;k<=spac;k++){
+		for(int k=1;k<=spac;k++)
+		{
 			cout<<" ";
 		}
 		spac-=2;
-		if(i!=num-1){
+		if(i!=num-1)
+		{
 			cout<<"*";
 		}
 		cout<<endl;
