@@ -1,7 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int getCharNumber(const char & c){
@@ -20,9 +17,11 @@ int getCharNumber(const char & c){
 }
 
 
-vector <int> buildCharFrequencyTable(string phrase){
+vector <int> buildCharFrequencyTable(string phrase)
+{
     vector <int> table(getCharNumber('z') - getCharNumber('a') + 1, 0);
-    for(char &c : phrase){
+    for(char &c : phrase)
+    {
         int x = getCharNumber(c);
         if(x != -1){
             table[x]++;
