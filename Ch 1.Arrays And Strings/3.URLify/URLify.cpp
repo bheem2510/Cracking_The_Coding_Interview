@@ -5,8 +5,7 @@
  * Preferebly in place
  */
 
-#include <iostream>
-#include <cstring>
+#include <bits/stdc++.h>
 
 /*
  * Function : urlify
@@ -26,7 +25,8 @@ void urlify(char *str, int len)
     
     int extendedLen  = len + 2 * numOfSpaces;
     i = extendedLen - 1;
-    for( j = len - 1; j >= 0; --j ) {
+    for( j = len - 1; j >= 0; --j )
+    {
         if ( str[j] != ' ' ) {
            str[i--] = str[j];
         } else {
