@@ -11,7 +11,7 @@
  * We won't care about the case of the letter
  */
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 
 /*
