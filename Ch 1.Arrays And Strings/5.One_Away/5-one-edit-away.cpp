@@ -24,10 +24,7 @@
 
 
 
-#include <iostream>
-#include <string>
-#include <cmath>
-
+#include <bits/stdc++.h>
 
 bool oneEditAway( const std::string & str1, const std::string & str2 )
 {
