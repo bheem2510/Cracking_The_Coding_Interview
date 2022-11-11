@@ -23,7 +23,8 @@ double getVolume(Histogram &histogram){
                 i++;
             }
             volume += (i - start - 1) * height - barsVolume;
-        } else {
+        } else 
+        {
             double height = histogram[j];
             double barsVolume = 0.0;
             int end = j--;
