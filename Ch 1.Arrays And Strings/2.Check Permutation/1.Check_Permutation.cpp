@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include <algorithm>
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 bool arePermutation(string str1,string str2)
 {
     // Get lengths of both strings
@@ -25,7 +23,8 @@ bool arePermutation(string str1,string str2)
     return true;
 }
 
-bool arePermutation_2(const string &str1, const string &str2) {
+bool arePermutation_2(const string &str1, const string &str2)
+{
   if(str1.length() != str2.length()) 
     return false;
   int count[256]={0};
@@ -41,7 +40,8 @@ bool arePermutation_2(const string &str1, const string &str2) {
   }
   return true;
 }
-int main() {
+int main()
+{
 // Test Method 1 - Using sort
     cout << "Method 1 - Using sort" << endl;
     string str1 = "testest";
